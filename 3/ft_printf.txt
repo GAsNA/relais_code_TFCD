@@ -1,0 +1,12 @@
+Assignment name		:	ft_printf
+Expected files		:	ft_printf.c
+Allowed functions	:	malloc, free, write, va_start, va_arg, va_copy, va_end
+-----------------------------------------------------------------------------------------
+
+Write a function that will mimic the real printf but it will manage only the following conversions: s, d, x.
+
+The function must be declared as follows:
+
+int	ft_printf(const char *, ...);
+
+Before you start we advise you to read the `man 3 printf` and the `man va_arg`.

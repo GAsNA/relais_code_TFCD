@@ -1,0 +1,38 @@
+Assignment name		:	ascii_art
+Expected files		:	ascii_art.c
+Allowed functions	:	write
+---------------------------------------------------------------------------------------
+
+Write a program that display a line of text in ASCII art in a style you are given as input.
+
+If a character is not recognized, use the '?'.
+
+First parameter: the width of a letter represented in ASCII art.
+Second parameter: the height of a letter represented in ASCII art.
+Third parameter: the message to wrire in ASCII art.
+Following parameters: the strings of characters ABCDEFGHIJKLMNOPQRSTUVWXYZ? Represented in ASCII art.
+
+Example:
+	Input: ./ascii_art 4 5 E " #  ##   ## ##  ### ###  ## # # ###  ## # # #   # # ###  #  ##   #  ##   ## ### # # # # # # # # # # ### ### "\
+				 "# # # # #   # # #   #   #   # #  #    # # # #   ### # # # # # # # # # # #    #  # # # # # # # # # #   #   # "\
+				 "### ##  #   # # ##  ##  # # ###  #    # ##  #   ### # # # # ##  # # ##   #   #  # # # # ###  #   #   #   ## "\
+				 "# # # # #   # # #   #   # # # #  #  # # # # #   # # # # # # #    ## # #   #  #  # # # # ### # #  #  #       "\
+				 "# # ##   ## ##  ### #    ## # # ###  #  # # ### # # # #  #  #     # # # ##   #  ###  #  # # # #  #  ###  #  "
+	Output:
+		### $
+		#   $
+		##  $
+		#   $
+		### $
+
+	Input: ./ascii_art 4 5 MANHATTAN " #  ##   ## ##  ### ###  ## # # ###  ## # # #   # # ###  #  ##   #  ##   ## ### # # # # # # # # # # ### ### "\
+					 "# # # # #   # # #   #   #   # #  #    # # # #   ### # # # # # # # # # # #    #  # # # # # # # # # #   #   # "\
+					 "### ##  #   # # ##  ##  # # ###  #    # ##  #   ### # # # # ##  # # ##   #   #  # # # # ###  #   #   #   ## "\
+					 "# # # # #   # # #   #   # # # #  #  # # # # #   # # # # # # #    ## # #   #  #  # # # # ### # #  #  #       "\
+					 "# # ##   ## ##  ### #    ## # # ###  #  # # ### # # # #  #  #     # # # ##   #  ###  #  # # # #  #  ###  #  "
+	Output:
+		# #  #  ### # #  #  ### ###  #  ###$
+		### # # # # # # # #  #   #  # # # #$
+		### ### # # ### ###  #   #  ### # #$
+		# # # # # # # # # #  #   #  # # # #$
+		# # # # # # # # # #  #   #  # # # #$

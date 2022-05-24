@@ -1,0 +1,20 @@
+Assignment name		:	ft_list_push_strs
+Expected files		:	ft_list_push_strs.c
+Allowed functions	:	malloc, free
+-----------------------------------------------------------------------------------------
+
+Write a function that creates a new list by putting in it the strings given in the array.
+
+The first element of the array will be at the end of the list. The address of the first item in the list will be returned.
+
+Your function must be declared as follows:
+
+t_list	*ft_list_push_strs(int size, char **strs);
+
+The structure of the list should be as follows:
+
+typedef struct s_list
+{
+	void		*data;
+	struct s_list	*next;
+} t_list;
